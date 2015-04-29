@@ -50,14 +50,14 @@ namespace Jojatekok.XmrToAPI
 
         private static string SendRequest(HttpMethod requestMethod, string requestRelativeUri, string requestContent = null)
         {
-            var requestMessage = new HttpRequestMessage(requestMethod, new Uri(Utilities.ApiUrlHttpsBase + requestRelativeUri + "/"));
+            using (var requestMessage = new HttpRequestMessage(requestMethod, new Uri(Utilities.ApiUrlHttpsBase + requestRelativeUri + "/"))) {
+                if (requestContent != null) {
+                    requestMessage.Content = new StringContent(requestContent, EncodingUtf8, "application/json");
+                }
 
-            if (requestContent != null) {
-                requestMessage.Content = new StringContent(requestContent, EncodingUtf8, "application/json");
+                var response = HttpClient.SendAsync(requestMessage).Result;
+                return response.Content.ReadAsStringAsync().Result;
             }
-
-            var response = HttpClient.SendAsync(requestMessage).Result;
-            return response.Content.ReadAsStringAsync().Result;
         }
     }
 }
