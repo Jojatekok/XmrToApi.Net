@@ -22,7 +22,7 @@ namespace Jojatekok.XmrToAPI.Demo
                 conversionInfo.BitcoinAmountMaximum.ToString(InvariantCulture)
             );
 
-            Console.ReadKey();
+            Console.Read();
         }
     }
 }
