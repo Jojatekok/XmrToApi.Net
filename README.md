@@ -1,3 +1,6 @@
+# Project Discontinued
+Please be aware that this project is not actively maintained anymore.
+
 # XMR.TO API .NET [![Build Status](https://travis-ci.org/Jojatekok/XmrToApi.Net.svg)](https://travis-ci.org/Jojatekok/XmrToApi.Net)
 This project makes your Microsoft .NET applications able to interact with the API _(Application Programming Interface)_ of [XMR.TO][].
 The class library is written in [C#][]. A [NuGet package of the project][] is also available.
@@ -16,10 +19,3 @@ The class library is written in [C#][]. A [NuGet package of the project][] is al
 The project uses [Semantic Versioning 2.0.0][] for keeping track of changes.
 
 [Semantic Versioning 2.0.0]: http://semver.org/spec/v2.0.0.html
-
-## Donations
-Donations are highly appreciated in order to keep the development alive.
-
-- __Bitcoin:__ 14wHehBtFt321WTV15khon8Juaxh9drnfJ
-
-- __Monero:__ 47hK4gehaMrFTQCiV5FEmM54hpqTrdHudb9nUBG88NicBDpxH4TGuh3TmW84Dc6dpMiEiBLGvJCuT3xC3LNHctmx7mG8NLM
