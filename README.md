@@ -1,7 +1,7 @@
 # Project Discontinued
 Please be aware that this project is not actively maintained anymore.
 
-# XMR.TO API .NET [![Build Status](https://travis-ci.org/Jojatekok/XmrToApi.Net.svg)](https://travis-ci.org/Jojatekok/XmrToApi.Net)
+# XMR.TO API .NET [![Build Status](https://travis-ci.org/kripod/XmrToApi.Net.svg)](https://travis-ci.org/kripod/XmrToApi.Net)
 This project makes your Microsoft .NET applications able to interact with the API _(Application Programming Interface)_ of [XMR.TO][].
 The class library is written in [C#][]. A [NuGet package of the project][] is also available.
 
